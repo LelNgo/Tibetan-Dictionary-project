@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tibetan Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tibetan Dictionary</h1>
+    </header>
+
+    <div class="search-container">
+        <div class="language-toggle">
+            <button class="toggle-btn active" data-mode="tibetan">Tibetan → Chinese</button>
+            <button class="toggle-btn" data-mode="tibetan-reverse">Chinese → Tibetan</button>
+            <button class="toggle-btn" data-mode="sanskrit">Sanskrit → Chinese</button>
+            <button class="toggle-btn" data-mode="sanskrit-reverse">Chinese → Sanskrit</button>
+        </div>
+        <div class="search-controls">
+            <input class="searchInput" type="text" placeholder="Search for a word...">
+            <button class="search-btn">Search</button>
+        </div>
+        
+    </div>
+
+    <div class="wordList"></div>
+
+    <script src="dictionary.js"></script>
+    <script src="sanskrit.js"></script>
+    <script src="interactive.js"></script>
+</body>
+</html>
